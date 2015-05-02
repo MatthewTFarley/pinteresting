@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+ruby '2.2.1'
+
 
 gem 'rails', '4.1.8'
 
@@ -13,6 +15,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'execjs'
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'bootstrap-sass'
+gem 'devise', '~> 3.4.1'
 
 group :development, :test do
      gem 'sqlite3'
