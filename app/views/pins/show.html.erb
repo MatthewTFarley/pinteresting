@@ -1,12 +1,12 @@
 <%= link_to 'Back', pins_path %>
 
 <div class="row">
-  <div class="col-med-offset-2 col-md-8">
+  <div class="col-md-offset-2 col-md-8">
     <div class="panel panel-defailt">
-      <div class="panel panel-heading center">
+      <div class="panel-heading center">
         <%= image_tag @pin.image.url(:medium) %>
       </div>
-      <div class="panel panel-body">
+      <div class="panel panel-body" >
         <p><%= @pin.description %></p>
         <p><strong><%= @pin.user.name if @pin.user %></strong></p>
 
